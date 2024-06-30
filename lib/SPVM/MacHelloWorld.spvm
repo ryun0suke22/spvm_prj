@@ -1,0 +1,6 @@
+# Copyright (c) 2024 [--user-name]
+# MIT License
+
+class MacHelloWorld {
+  version "0.001";
+}
