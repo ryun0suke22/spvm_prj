@@ -1,8 +1,9 @@
 
+#include "spvm_native.h"
 #import <Cocoa/Cocoa.h>
 #import "MacHelloWorld.h"
 
-int main(int argc, const char * argv[]) {
+int SPVM__MacHelloWorld__main(int argc, const char * argv[]) {
     @autoreleasepool {
         // NSLog(@"Hello, World!");
         NSAlert *alert = [[NSAlert alloc] init];
