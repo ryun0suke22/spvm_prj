@@ -1,0 +1,7 @@
+# Copyright (c) 2024 [--user-name]
+# MIT License
+
+class MacHelloWorldExe {
+  version "0.001";
+  native static method main : void ();
+}
