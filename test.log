@@ -1,0 +1,176 @@
+[Compile a bootstrap source file for an excutable file]
+cc -c -o .spvm_build/work/object/SPVM/MacHelloWorldExe.boot.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include .spvm_build/work/src/SPVM/MacHelloWorldExe.boot.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_allocator.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_allocator.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_allow.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_allow.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_api_allocator.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_api_allocator.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_api_arg.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_api_arg.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_api_basic_type.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_api_basic_type.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_api.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_api.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_api_class_var.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_api_class_var.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_api_compiler.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_api_compiler.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_api_field.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_api_field.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_api_method.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_api_method.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_api_mutex.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_api_mutex.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_api_class_file.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_api_class_file.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_api_runtime.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_api_runtime.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_api_string_buffer.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_api_string_buffer.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_api_type.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_api_type.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_api_internal.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_api_internal.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_array_field_access.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_array_field_access.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_attribute.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_attribute.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_basic_type.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_basic_type.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_block.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_block.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_call_method.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_call_method.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_case_info.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_case_info.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_check.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_check.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_class_var_access.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_class_var_access.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_class_var.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_class_var.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_compiler.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_compiler.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_constant.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_constant.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_dumper.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_dumper.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_field_access.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_field_access.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_field.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_field.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_hash.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_hash.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_interface.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_interface.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_list.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_list.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_method.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_method.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_mutex.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_mutex.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_class_file.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_class_file.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_op.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_op.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_opcode_builder.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_opcode_builder.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_opcode.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_opcode.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_opcode_list.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_opcode_list.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_precompile.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_precompile.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_runtime.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_runtime.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_strerror.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_strerror.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_string_buffer.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_string_buffer.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_string.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_string.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_switch_info.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_switch_info.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_toke.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_toke.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_type.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_type.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_use.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_use.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_utf8.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_utf8.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_var.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_var.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_var_decl.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_var_decl.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_vm.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_vm.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_yacc.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_yacc.c
+[Compile an SPVM core source file]
+cc -c -o .spvm_build/work/object/spvm_yacc_util.o -std=gnu99 -O3 -pthread -fPIC -I/Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/include /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/darwin-2level/SPVM/Builder/src/spvm_yacc_util.c
+[Generate an executable file for the "MacHelloWorldExe" class]
+clang -o test .spvm_build/work/object/SPVM/MacHelloWorldExe.boot.o .spvm_build/work/object/spvm_allocator.o .spvm_build/work/object/spvm_allow.o .spvm_build/work/object/spvm_api_allocator.o .spvm_build/work/object/spvm_api_arg.o .spvm_build/work/object/spvm_api_basic_type.o .spvm_build/work/object/spvm_api.o .spvm_build/work/object/spvm_api_class_var.o .spvm_build/work/object/spvm_api_compiler.o .spvm_build/work/object/spvm_api_field.o .spvm_build/work/object/spvm_api_method.o .spvm_build/work/object/spvm_api_mutex.o .spvm_build/work/object/spvm_api_class_file.o .spvm_build/work/object/spvm_api_runtime.o .spvm_build/work/object/spvm_api_string_buffer.o .spvm_build/work/object/spvm_api_type.o .spvm_build/work/object/spvm_api_internal.o .spvm_build/work/object/spvm_array_field_access.o .spvm_build/work/object/spvm_attribute.o .spvm_build/work/object/spvm_basic_type.o .spvm_build/work/object/spvm_block.o .spvm_build/work/object/spvm_call_method.o .spvm_build/work/object/spvm_case_info.o .spvm_build/work/object/spvm_check.o .spvm_build/work/object/spvm_class_var_access.o .spvm_build/work/object/spvm_class_var.o .spvm_build/work/object/spvm_compiler.o .spvm_build/work/object/spvm_constant.o .spvm_build/work/object/spvm_dumper.o .spvm_build/work/object/spvm_field_access.o .spvm_build/work/object/spvm_field.o .spvm_build/work/object/spvm_hash.o .spvm_build/work/object/spvm_interface.o .spvm_build/work/object/spvm_list.o .spvm_build/work/object/spvm_method.o .spvm_build/work/object/spvm_mutex.o .spvm_build/work/object/spvm_class_file.o .spvm_build/work/object/spvm_op.o .spvm_build/work/object/spvm_opcode_builder.o .spvm_build/work/object/spvm_opcode.o .spvm_build/work/object/spvm_opcode_list.o .spvm_build/work/object/spvm_precompile.o .spvm_build/work/object/spvm_runtime.o .spvm_build/work/object/spvm_strerror.o .spvm_build/work/object/spvm_string_buffer.o .spvm_build/work/object/spvm_string.o .spvm_build/work/object/spvm_switch_info.o .spvm_build/work/object/spvm_toke.o .spvm_build/work/object/spvm_type.o .spvm_build/work/object/spvm_use.o .spvm_build/work/object/spvm_utf8.o .spvm_build/work/object/spvm_var.o .spvm_build/work/object/spvm_var_decl.o .spvm_build/work/object/spvm_vm.o .spvm_build/work/object/spvm_yacc.o .spvm_build/work/object/spvm_yacc_util.o -O2 -framework Cocoa -fobjc-arc -pthread
+ld: warning: object file (.spvm_build/work/object/spvm_allocator.o) was built for newer macOS version (11.1) than being linked (10.15)
+ld: warning: object file (.spvm_build/work/object/SPVM/MacHelloWorldExe.boot.o) was built for newer macOS version (11.1) than being linked (10.15)
+ld: warning: object file (.spvm_build/work/object/spvm_api_allocator.o) was built for newer macOS version (11.1) than being linked (10.15)
+ld: warning: object file (.spvm_build/work/object/spvm_api_arg.o) was built for newer macOS version (11.1) than being linked (10.15)
+ld: warning: object file (.spvm_build/work/object/spvm_allow.o) was built for newer macOS version (11.1) than being linked (10.15)
+ld: warning: object file (.spvm_build/work/object/spvm_api_basic_type.o) was built for newer macOS version (11.1) than being linked (10.15)ld: warning: object file (.spvm_build/work/object/spvm_api_class_var.o) was built for newer macOS version (11.1) than being linked (10.15)
+ld: warning: object file (.spvm_build/work/object/spvm_api.o) was built for newer macOS version (11.1) than being linked (10.15)
+ld: warning: object file (.spvm_build/work/object/spvm_api_compiler.o) was built for newer macOS version (11.1) than being linked (10.15)
+
+ld: warning: object file (.spvm_build/work/object/spvm_api_field.o) was built for newer macOS version (11.1) than being linked (10.15)
+ld: warning: object file (.spvm_build/work/object/spvm_api_method.o) was built for newer macOS version (11.1) than being linked (10.15)
+ld: warning: object file (.spvm_build/work/object/spvm_api_mutex.o) was built for newer macOS version (11.1) than being linked (10.15)
+ld: warning: object file (.spvm_build/work/object/spvm_api_class_file.o) was built for newer macOS version (11.1) than being linked (10.15)
+ld: warning: object file (.spvm_build/work/object/spvm_api_string_buffer.o) was built for newer macOS version (11.1) than being linked (10.15)
+ld: warning: object file (.spvm_build/work/object/spvm_api_runtime.o) was built for newer macOS version (11.1) than being linked (10.15)
+ld: warning: object file (.spvm_build/work/object/spvm_api_type.o) was built for newer macOS version (11.1) than being linked (10.15)
+ld: warning: object file (.spvm_build/work/object/spvm_api_internal.o) was built for newer macOS version (11.1) than being linked (10.15)
+ld: warning: object file (.spvm_build/work/object/spvm_array_field_access.o) was built for newer macOS version (11.1) than being linked (10.15)
+ld: warning: object file (.spvm_build/work/object/spvm_block.o) was built for newer macOS version (11.1) than being linked (10.15)
+ld: warning: object file (.spvm_build/work/object/spvm_basic_type.o) was built for newer macOS version (11.1) than being linked (10.15)ld: warning: object file (.spvm_build/work/object/spvm_constant.o) was built for newer macOS version (11.1) than being linked (10.15)
+ld: warning: object file (.spvm_build/work/object/spvm_compiler.o) was built for newer macOS version (11.1) than being linked (10.15)
+ld: warning: object file (.spvm_build/work/object/spvm_class_var.o) was built for newer macOS version (11.1) than being linked (10.15)
+ld: warning: object file (.spvm_build/work/object/spvm_attribute.o) was built for newer macOS version (11.1) than being linked (10.15)
+ld: warning: object file (.spvm_build/work/object/spvm_case_info.o) was built for newer macOS version (11.1) than being linked (10.15)
+ld: warning: object file (.spvm_build/work/object/spvm_class_var_access.o) was built for newer macOS version (11.1) than being linked (10.15)
+ld: warning: object file (.spvm_build/work/object/spvm_call_method.o) was built for newer macOS version (11.1) than being linked (10.15)
+ld: warning: object file (.spvm_build/work/object/spvm_check.o) was built for newer macOS version (11.1) than being linked (10.15)
+
+ld: warning: object file (.spvm_build/work/object/spvm_dumper.o) was built for newer macOS version (11.1) than being linked (10.15)
+ld: warning: object file (.spvm_build/work/object/spvm_field.o) was built for newer macOS version (11.1) than being linked (10.15)
+ld: warning: ld: warning: object file (.spvm_build/work/object/spvm_method.o) was built for newer macOS version (11.1) than being linked (10.15)
+ld: warning: object file (.spvm_build/work/object/spvm_hash.o) was built for newer macOS version (11.1) than being linked (10.15)
+object file (.spvm_build/work/object/spvm_field_access.o) was built for newer macOS version (11.1) than being linked (10.15)
+ld: warning: ld: warning: object file (.spvm_build/work/object/spvm_list.o) was built for newer macOS version (11.1) than being linked (10.15)
+ld: warning: object file (.spvm_build/work/object/spvm_mutex.o) was built for newer macOS version (11.1) than being linked (10.15)
+object file (.spvm_build/work/object/spvm_interface.o) was built for newer macOS version (11.1) than being linked (10.15)
+ld: warning: object file (.spvm_build/work/object/spvm_class_file.o) was built for newer macOS version (11.1) than being linked (10.15)
+ld: warning: ld: warning: object file (.spvm_build/work/object/spvm_precompile.o) was built for newer macOS version (11.1) than being linked (10.15)
+ld: warning: object file (.spvm_build/work/object/spvm_string.o) was built for newer macOS version (11.1) than being linked (10.15)
+ld: warning: object file (.spvm_build/work/object/spvm_type.o) was built for newer macOS version (11.1) than being linked (10.15)ld: warning: object file (.spvm_build/work/object/spvm_string_buffer.o) was built for newer macOS version (11.1) than being linked (10.15)
+ld: warning: object file (.spvm_build/work/object/spvm_strerror.o) was built for newer macOS version (11.1) than being linked (10.15)
+ld: warning: ld: warning: object file (.spvm_build/work/object/spvm_opcode_builder.o) was built for newer macOS version (11.1) than being linked (10.15)
+ld: warning: object file (.spvm_build/work/object/spvm_toke.o) was built for newer macOS version (11.1) than being linked (10.15)
+ld: warning: object file (.spvm_build/work/object/spvm_runtime.o) was built for newer macOS version (11.1) than being linked (10.15)
+
+object file (.spvm_build/work/object/spvm_op.o) was built for newer macOS version (11.1) than being linked (10.15)
+ld: warning: object file (.spvm_build/work/object/spvm_opcode.o) was built for newer macOS version (11.1) than being linked (10.15)object file (.spvm_build/work/object/spvm_switch_info.o) was built for newer macOS version (11.1) than being linked (10.15)
+ld: warning: object file (.spvm_build/work/object/spvm_opcode_list.o) was built for newer macOS version (11.1) than being linked (10.15)
+ld: warning: object file (.spvm_build/work/object/spvm_utf8.o) was built for newer macOS version (11.1) than being linked (10.15)
+ld: warning: object file (.spvm_build/work/object/spvm_use.o) was built for newer macOS version (11.1) than being linked (10.15)
+
+ld: warning: object file (.spvm_build/work/object/spvm_var.o) was built for newer macOS version (11.1) than being linked (10.15)
+ld: warning: ld: warning: object file (.spvm_build/work/object/spvm_yacc_util.o) was built for newer macOS version (11.1) than being linked (10.15)
+ld: warning: object file (.spvm_build/work/object/spvm_vm.o) was built for newer macOS version (11.1) than being linked (10.15)
+object file (.spvm_build/work/object/spvm_var_decl.o) was built for newer macOS version (11.1) than being linked (10.15)
+ld: warning: object file (.spvm_build/work/object/spvm_yacc.o) was built for newer macOS version (11.1) than being linked (10.15)
+Undefined symbols for architecture x86_64:
+  "_SPVM__MacHelloWorldExe__main", referenced from:
+      _main in MacHelloWorldExe.boot.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+error building test from .spvm_build/work/object/SPVM/MacHelloWorldExe.boot.o .spvm_build/work/object/spvm_allocator.o .spvm_build/work/object/spvm_allow.o .spvm_build/work/object/spvm_api_allocator.o .spvm_build/work/object/spvm_api_arg.o .spvm_build/work/object/spvm_api_basic_type.o .spvm_build/work/object/spvm_api.o .spvm_build/work/object/spvm_api_class_var.o .spvm_build/work/object/spvm_api_compiler.o .spvm_build/work/object/spvm_api_field.o .spvm_build/work/object/spvm_api_method.o .spvm_build/work/object/spvm_api_mutex.o .spvm_build/work/object/spvm_api_class_file.o .spvm_build/work/object/spvm_api_runtime.o .spvm_build/work/object/spvm_api_string_buffer.o .spvm_build/work/object/spvm_api_type.o .spvm_build/work/object/spvm_api_internal.o .spvm_build/work/object/spvm_array_field_access.o .spvm_build/work/object/spvm_attribute.o .spvm_build/work/object/spvm_basic_type.o .spvm_build/work/object/spvm_block.o .spvm_build/work/object/spvm_call_method.o .spvm_build/work/object/spvm_case_info.o .spvm_build/work/object/spvm_check.o .spvm_build/work/object/spvm_class_var_access.o .spvm_build/work/object/spvm_class_var.o .spvm_build/work/object/spvm_compiler.o .spvm_build/work/object/spvm_constant.o .spvm_build/work/object/spvm_dumper.o .spvm_build/work/object/spvm_field_access.o .spvm_build/work/object/spvm_field.o .spvm_build/work/object/spvm_hash.o .spvm_build/work/object/spvm_interface.o .spvm_build/work/object/spvm_list.o .spvm_build/work/object/spvm_method.o .spvm_build/work/object/spvm_mutex.o .spvm_build/work/object/spvm_class_file.o .spvm_build/work/object/spvm_op.o .spvm_build/work/object/spvm_opcode_builder.o .spvm_build/work/object/spvm_opcode.o .spvm_build/work/object/spvm_opcode_list.o .spvm_build/work/object/spvm_precompile.o .spvm_build/work/object/spvm_runtime.o .spvm_build/work/object/spvm_strerror.o .spvm_build/work/object/spvm_string_buffer.o .spvm_build/work/object/spvm_string.o .spvm_build/work/object/spvm_switch_info.o .spvm_build/work/object/spvm_toke.o .spvm_build/work/object/spvm_type.o .spvm_build/work/object/spvm_use.o .spvm_build/work/object/spvm_utf8.o .spvm_build/work/object/spvm_var.o .spvm_build/work/object/spvm_var_decl.o .spvm_build/work/object/spvm_vm.o .spvm_build/work/object/spvm_yacc.o .spvm_build/work/object/spvm_yacc_util.o at /Users/r.murakami/perl5/perlbrew/perls/perl-5.20.3/lib/site_perl/5.20.3/ExtUtils/CBuilder/Base.pm line 333.
