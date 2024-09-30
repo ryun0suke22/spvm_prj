@@ -3,5 +3,9 @@
 
 class MacHelloWorldExe {
   version "0.001";
-  native static method main : void ();
+  use MacHelloWorld;
+
+  static method main : void () {
+      MacHelloWorld->main();
+  }
 }
