@@ -1,7 +1,7 @@
 # Copyright (c) 2024 [--user-name]
 # MIT License
 
-class MacHelloWorldExe {
+class {
   version "0.001";
   use MacHelloWorld;
 
