@@ -1,7 +1,0 @@
-class TestCase::MacHelloWorld {
-  use MacHelloWorld;
-  static method test : int () {
-    
-    return 1;
-  }
-}
