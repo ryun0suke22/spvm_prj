@@ -7,7 +7,7 @@
 Run the app using `spvm` command.
 
 ```
-% spvm -I lib/SPVM mac_hello_world.spvm
+% spvm mac_hello_world.spvm
 ```
 
 ## spvmcc
@@ -16,6 +16,6 @@ Generate the executable file using `spvmcc` command and execute it.
 
 
 ```
-% spvmcc -I lib/SPVM -o mac_hello_world mac_hello_world.spvm
+% spvmcc -o mac_hello_world mac_hello_world.spvm
 % ./mac_hello_world
 ```

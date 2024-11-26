@@ -1,3 +1,5 @@
+#lib "$FindBin::Bin/lib/SPVM"
+
 class {
   use MacHelloWorld;
   
