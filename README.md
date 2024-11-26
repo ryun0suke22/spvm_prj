@@ -1,17 +1,16 @@
-# SPVM::MacHelloWorld
+# How to Generate GUI App in Mac using SPVM
 
-<a href="https://metacpan.org/pod/SPVM::MacHelloWorld">SPVM::MacHelloWorld</a>
+Hellow World 
 
-# 実行方法
-## spvm を用いた例
+## spvm
+
 ```
-% make
-% spvm -I blib/lib mac_hello_world.spvm
+% spvm -I lib/SPVM mac_hello_world.spvm
 ```
 
-## spvmcc を用いた例
+## spvmcc
+
 ```
-% spvmcc -I lib -o mac_hello_world mac_hello_world.spvm
+% spvmcc -I lib/SPVM -o mac_hello_world mac_hello_world.spvm
 % ./mac_hello_world
 ```
-
