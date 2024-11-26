@@ -6,12 +6,12 @@
 ## spvm を用いた例
 ```
 % make
-% spvm -I blib/lib mac_hello_world_exe.spvm
+% spvm -I blib/lib mac_hello_world.spvm
 ```
 
 ## spvmcc を用いた例
 ```
-% spvmcc -I lib -o mac_hello_world_exe mac_hello_world_exe.spvm
-% ./mac_hello_world_exe
+% spvmcc -I lib -o mac_hello_world mac_hello_world.spvm
+% ./mac_hello_world
 ```
 
