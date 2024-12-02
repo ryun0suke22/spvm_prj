@@ -1,0 +1,9 @@
+#lib "$FindBin::Bin/lib/SPVM"
+
+class {
+  use MacHelloWorld;
+  
+  static method main : void () {
+    MacHelloWorld->hello;
+  }
+}
