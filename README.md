@@ -2,6 +2,12 @@
 
 `mac_hello_world.spvm` is a GUI app that shows an alert window with "Hello World!".
 
+## Set a build directory
+
+```
+export SPVM_BUILD_DIR=.spvm_build
+```
+
 ## spvm
 
 Run the app using `spvm` command.
