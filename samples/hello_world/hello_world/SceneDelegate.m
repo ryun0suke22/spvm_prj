@@ -6,9 +6,10 @@
 //
 
 #import "SceneDelegate.h"
+#import "ViewController.h"
 
 @interface SceneDelegate ()
-
+@property (nonatomic, strong, readwrite) UIWindow *window;
 @end
 
 @implementation SceneDelegate
@@ -18,6 +19,17 @@
     // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
     // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
     // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+    
+    // ウィンドウを作成
+    UIWindowScene *windowScene = (UIWindowScene *)scene;
+    self.window = [[UIWindow alloc] initWithWindowScene:windowScene];
+    
+    // ルートビューコントローラーを設定
+    ViewController *viewController = [[ViewController alloc] init];
+    self.window.rootViewController = viewController;
+    
+    // ウィンドウを表示
+    [self.window makeKeyAndVisible];
 }
 
 
